@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32ZG28B312F1024IM48" partId="mcu.arm.efr32.zg28.efr32zg28b312f1024im48" contextId="com.silabs.sdk.stack.sisdk:2024.12.0._1004092459">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_VCOM%T%sl_iostream_eusart_vcom_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="GPIO" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
+    <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C0" propertyId="ABModule.selectedRequirement" value="i2c%T%SL_I2CSPM_TEMPSENSORIF%T%sl_i2cspm_tempSensorIf_config.h"/>
+    <property object="I2C0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PC09" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_RELAY%T%sl_simple_led_relay_config.h"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.cts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.rts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="10"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="9"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.tx" value="8"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c0.enable.scl" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c0.enable.sda" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c0.location.scl" value="6"/>
+    <property object="PORTIO" propertyId="portio.i2c0.location.sda" value="7"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
